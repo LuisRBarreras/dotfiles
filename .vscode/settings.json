@@ -1,4 +1,5 @@
 {
+{
 	"typescript.format.enable": false,
 	"vim.easymotion": true,
 	"vim.sneak": true,
@@ -35,7 +36,20 @@
 			"commands": [
 				":nohl"
 			]
-		}
+        },
+        {
+            "before": ["<leader>", "m"],
+            "commands": [
+                "bookmarks.toggle"
+            ]
+        },
+        {
+            "before": ["<leader>", "b"],
+            "commands": [
+                "bookmarks.list"
+            ]
+        }
+
 	],
 	"vim.leader": "<space>",
 	"vim.handleKeys": {
