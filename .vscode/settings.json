@@ -63,5 +63,6 @@
 	"editor.trimAutoWhitespace": false,
 	"terminal.integrated.fontFamily": "Meslo LG S for Powerline",
 	"terminal.integrated.fontSize": 11,
-	"breadcrumbs.enabled": false
+	"breadcrumbs.enabled": false,
+	"bookmarks.navigateThroughAllFiles": true
 }
