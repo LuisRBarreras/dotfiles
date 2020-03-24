@@ -1,5 +1,10 @@
 {
 	"typescript.format.enable": false,
+  	"bookmarks.navigateThroughAllFiles": true,
+  	"bookmarks.sideBar.expanded": true,
+  	"workbench.colorCustomizations": {
+	  "bookmarks.lineBorder": "#00e6e6"
+  	},
 	"vim.easymotion": true,
 	"vim.sneak": true,
 	"vim.incsearch": true,
@@ -45,7 +50,7 @@
         {
             "before": ["<leader>", "b"],
             "commands": [
-                "bookmarks.list"
+                "bookmarks.listFromAllFiles"
             ]
         }
 
@@ -64,5 +69,4 @@
 	"terminal.integrated.fontFamily": "Meslo LG S for Powerline",
 	"terminal.integrated.fontSize": 11,
 	"breadcrumbs.enabled": false,
-	"bookmarks.navigateThroughAllFiles": true
 }
