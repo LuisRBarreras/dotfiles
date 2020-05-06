@@ -13,47 +13,27 @@
 	"vim.hlsearch": true,
 	"vim.insertModeKeyBindings": [
 		{
-			"before": [
-				"j",
-				"j"
-			],
-			"after": [
-				"<Esc>"
-			]
+			"before": ["j","j"],
+			"after": ["<Esc>"]
 		}
 	],
 	"vim.normalModeKeyBindingsNonRecursive": [
 		{
-			"before": [
-				"<leader>",
-				"d"
-			],
-			"after": [
-				"d",
-				"d"
-			]
+			"before": ["<leader>","d"],
+			"after": ["d","d"]
 		},
 		{
-			"before": [
-				"<C-n>"
-			],
-			"commands": [
-				":nohl"
-			]
-        },
-        {
-            "before": ["<leader>", "m"],
-            "commands": [
-                "bookmarks.toggle"
-            ]
-        },
-        {
-            "before": ["<leader>", "b"],
-            "commands": [
-                "bookmarks.listFromAllFiles"
-            ]
-        }
-
+			"before": ["<C-n>"],
+			"commands": [":nohl"]
+        	},
+        	{
+            		"before": ["<leader>", "m"],
+            		"commands": ["bookmarks.toggle"]
+        	},
+        	{
+            		"before": ["<leader>", "b"],
+            		"commands": ["bookmarks.listFromAllFiles"]
+        	}
 	],
 	"vim.leader": "<space>",
 	"vim.handleKeys": {
