@@ -46,6 +46,8 @@
 	"editor.folding": true,
 	"editor.acceptSuggestionOnCommitCharacter": false,
 	"editor.trimAutoWhitespace": false,
+	"files.trimTrailingWhitespace": false,
+	"diffEditor.ignoreTrimWhitespace": true,
 	"terminal.integrated.fontFamily": "Meslo LG S for Powerline",
 	"terminal.integrated.fontSize": 11,
 	"breadcrumbs.enabled": false,
