@@ -28,7 +28,7 @@
 	      "name": "extension.bookmarks",
 	      "codicon": "three-bars"
 	    }
-	  ],
+	],
   	"bookmarks.navigateThroughAllFiles": true,
   	"bookmarks.sideBar.expanded": true,
 	"breadcrumbs.enabled": false,
@@ -81,7 +81,7 @@
 	},
   	"workbench.colorCustomizations": {
 		"bookmarks.lineBorder": "#00e6e6",
-    	"editorRuler.foreground": "#ff4081"
+    		"editorRuler.foreground": "#ff4081"
   	},
   	"workbench.activityBar.visible": false,
 }
