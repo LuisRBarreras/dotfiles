@@ -1,4 +1,34 @@
 {
+	"activitusbar.views": [
+	    {
+	      "name": "explorer",
+	      "codicon": "files"
+	    },
+	    {
+	      "name": "search",
+	      "codicon": "search"
+	    },
+	    {
+	      "name": "scm",
+	      "codicon": "source-control"
+	    },
+	    {
+	      "name": "debug",
+	      "codicon": "debug-alt"
+	    },
+	    {
+	      "name": "extensions",
+	      "codicon": "extensions"
+	    },
+	    {
+	      "name": "extension.dockerView",
+	      "codicon": "database"
+	    },
+	    {
+	      "name": "extension.bookmarks",
+	      "codicon": "three-bars"
+	    }
+	  ],
   	"bookmarks.navigateThroughAllFiles": true,
   	"bookmarks.sideBar.expanded": true,
 	"breadcrumbs.enabled": false,
