@@ -44,7 +44,6 @@
 	"terminal.integrated.fontFamily": "Meslo LG S for Powerline",
 	"terminal.integrated.fontSize": 11,
 	"typescript.format.enable": false,
-	"prettier.singleQuote": true,
 	"vim.easymotion": true,
 	"vim.sneak": true,
 	"vim.incsearch": true,
@@ -82,7 +81,7 @@
 	},
   	"workbench.colorCustomizations": {
 		"bookmarks.lineBorder": "#00e6e6",
-    		"editorRuler.foreground": "#ff4081"
-  	},
-  	"workbench.activityBar.visible": false,
+		"editorRuler.foreground": "#ff4081"
+	},
+      "workbench.activityBar.visible": false,
 }
