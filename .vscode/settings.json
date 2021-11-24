@@ -1,87 +1,158 @@
 {
 	"activitusbar.views": [
-	    {
-	      "name": "explorer",
-	      "codicon": "files"
-	    },
-	    {
-	      "name": "search",
-	      "codicon": "search"
-	    },
-	    {
-	      "name": "scm",
-	      "codicon": "source-control"
-	    },
-	    {
-	      "name": "debug",
-	      "codicon": "debug-alt"
-	    },
-	    {
-	      "name": "extensions",
-	      "codicon": "extensions"
-	    },
-	    {
-	      "name": "extension.dockerView",
-	      "codicon": "database"
-	    },
-	    {
-	      "name": "extension.bookmarks",
-	      "codicon": "three-bars"
-	    }
-	],
-  	"bookmarks.navigateThroughAllFiles": true,
-  	"bookmarks.sideBar.expanded": true,
-	"breadcrumbs.enabled": false,
-  	"diffEditor.ignoreTrimWhitespace": true,
-	"editor.minimap.enabled": false,
-	"editor.lineNumbers": "on",
-	"editor.glyphMargin": true,
-	"editor.folding": true,
-	"editor.acceptSuggestionOnCommitCharacter": false,
-	"editor.trimAutoWhitespace": false,
-	"editor.rulers": [80,120],
-	"files.trimTrailingWhitespace": false,
-	"terminal.integrated.fontFamily": "Meslo LG S for Powerline",
-	"terminal.integrated.fontSize": 11,
-	"typescript.format.enable": false,
-	"vim.easymotion": true,
-	"vim.sneak": true,
-	"vim.incsearch": true,
-	"vim.useSystemClipboard": true,
-	"vim.useCtrlKeys": true,
-	"vim.hlsearch": true,
-	"vim.insertModeKeyBindings": [
 		{
-			"before": ["j","j"],
-			"after": ["<Esc>"]
-		}
-	],
-	"vim.normalModeKeyBindingsNonRecursive": [
-		{
-			"before": ["<leader>","d"],
-			"after": ["d","d"]
+			"codicon": "files",
+			"name": "explorer"
 		},
 		{
-			"before": ["<C-n>"],
-			"commands": [":nohl"]
-        	},
-        	{
-            		"before": ["<leader>", "m"],
-            		"commands": ["bookmarks.toggle"]
-        	},
-        	{
-            		"before": ["<leader>", "b"],
-            		"commands": ["bookmarks.listFromAllFiles"]
-        	}
+			"codicon": "search",
+			"name": "search"
+		},
+	
+		{
+			"codicon": "debug-alt",
+			"name": "debug"
+		},
+		{
+			"codicon": "source-control",
+			"name": "scm"
+		},
+		{
+			"codicon": "three-bars",
+			"name": "extension.bookmarks"
+		},
+		{
+			"codicon": "database",
+			"name": "extension.dockerView"
+		},
+		{
+			"codicon": "extensions",
+			"name": "extensions"
+		}
 	],
-	"vim.leader": "<space>",
+	"bookmarks.navigateThroughAllFiles": true,
+	"bookmarks.sideBar.expanded": true,
+	"breadcrumbs.enabled": false,
+	"cSpell.userWords": [
+		"Barreras",
+		"summitwealth",
+		"typeorm"
+	],
+	"diffEditor.ignoreTrimWhitespace": true,
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"editor.folding": true,
+	"editor.fontFamily": "Menlo, Monaco, 'Courier New', Monaco",
+	"editor.glyphMargin": true,
+	"editor.lineNumbers": "on",
+	"editor.minimap.enabled": false,
+	"editor.rulers": [
+		120,
+		80
+	],
+	"editor.tabSize": 2,
+	"editor.trimAutoWhitespace": false,
+	"files.exclude": {
+		"node_modules": true
+	},
+	"files.trimTrailingWhitespace": false,
+	"git.ignoreMissingGitWarning": true,
+	"inline-parameters.margin": "0.10em",
+	"inline-parameters.padding": "0.10em",
+	"standard.enable": true,
+	"standard.enableGlobally": true,
+	"standard.treatErrorsAsWarnings": true,
+	"standard.usePackageJson": false,
+	"terminal.external.osxExec": "iTerminal.app",
+	"terminal.integrated.defaultProfile.osx": "zsh",
+	"terminal.integrated.fontFamily": "monospace",
+	"typescript.format.enable": false,
+	"vim.easymotion": true,
 	"vim.handleKeys": {
 		"<C-a>": false,
 		"<C-f>": false
 	},
-  	"workbench.colorCustomizations": {
+	"vim.hlsearch": true,
+	"vim.incsearch": true,
+	"vim.insertModeKeyBindings": [
+		{
+			"after": [
+				"<Esc>"
+			],
+			"before": [
+				"j",
+				"j"
+			]
+		}
+	],
+	"vim.leader": "<space>",
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"after": [
+				"d",
+				"d"
+			],
+			"before": [
+				"<leader>",
+				"d"
+			]
+		},
+		{
+			"before": [
+				"<C-n>"
+			],
+			"commands": [
+				":nohl"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"b"
+			],
+			"commands": [
+				"bookmarks.listFromAllFiles"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"m"
+			],
+			"commands": [
+				"bookmarks.toggle"
+			]
+		}
+	],
+	"vim.sneak": true,
+	"vim.useCtrlKeys": true,
+	"vim.useSystemClipboard": true,
+	"vim.statusBarColorControl": true,
+	"vim.statusBarColors.normal": [
+		"#8FBCBB",
+		"#434C5E"
+	],
+	"vim.statusBarColors.insert": "#BF616A",
+	"vim.statusBarColors.visual": "#B48EAD",
+	"vim.statusBarColors.visualline": "#B48EAD",
+	"vim.statusBarColors.visualblock": "#A3BE8C",
+	"vim.statusBarColors.replace": "#D08770",
+	"vim.statusBarColors.commandlineinprogress": "#007ACC",
+	"vim.statusBarColors.searchinprogressmode": "#007ACC",
+	"vim.statusBarColors.easymotionmode": "#007ACC",
+	"vim.statusBarColors.easymotioninputmode": "#007ACC",
+	"vim.statusBarColors.surroundinputmode": "#007ACC",
+	"vim.surround": true,
+	"vim.visualModeKeyBindingsNonRecursive": [],
+	"window.zoomLevel": 1,
+	"workbench.activityBar.visible": false,
+	"workbench.colorCustomizations": {
 		"bookmarks.lineBorder": "#00e6e6",
-		"editorRuler.foreground": "#ff4081"
+		"editorRuler.foreground": "#ff4081",
+		"statusBar.background": "#B48EAD",
+		"statusBar.noFolderBackground": "#B48EAD",
+		"statusBar.debuggingBackground": "#B48EAD",
+		"statusBar.foreground": "#434C5E",
+		"statusBar.debuggingForeground": "#434C5E"
 	},
-      "workbench.activityBar.visible": false,
+	"workbench.colorTheme": "Default Dark+"
 }
