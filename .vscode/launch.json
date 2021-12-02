@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "type": "node",
+          "request": "launch",
+          "name": "WORKFLOW_RBC",
+          "console": "integratedTerminal",
+          "internalConsoleOptions": "neverOpen",
+          "runtimeExecutable": "yarn",
+          "cwd": "${workspaceFolder}",
+          "runtimeArgs": ["wrk:test"],
+          "args": ["-c", "RBC", "-m", "999", "-d", "111821"],
+          "port": 5858,
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "WORKFLOW_BY_ALL_ACCOUNTS",
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen",
+        "runtimeExecutable": "yarn",
+        "cwd": "${workspaceFolder}",
+        "runtimeArgs": ["wrk:test"],
+        "args": ["-c", "BY_ALL_ACCOUNTS", "-m", "999", "-d", "20181106"],
+        "port": 5858,
+    }
+  ]
+}
