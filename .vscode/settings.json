@@ -155,4 +155,12 @@
 		"statusBar.debuggingForeground": "#434C5E"
 	},
 	"workbench.colorTheme": "Default Dark+"
+	"emeraldwalk.runonsave": {
+    	"commands": [
+      		{
+       			"match": "\\.js$",
+        		"cmd": "standard --fix ${file}"
+      		},
+    	]
+  }
 }
